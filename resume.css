@@ -1,0 +1,106 @@
+.resume {
+  background: linear-gradient(to right, #0f172a, #1e293b);
+  color: #f1f5f9;
+  padding: 6rem 2rem;
+}
+
+.resume-container {
+  max-width: 1100px;
+  margin: auto;
+  animation: fadeInUp 1s ease;
+}
+
+.section-title {
+  font-size: 2.8rem;
+  text-align: center;
+  color: #dbeafe;
+  margin-bottom: 0.5rem;
+}
+
+.section-subtitle {
+  text-align: center;
+  color: #94a3b8;
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
+}
+
+.resume-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.resume-left, .resume-right {
+  flex: 1 1 45%;
+}
+
+.resume-block {
+  background-color: #1f2937;
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.resume-block h3 {
+  font-size: 1.5rem;
+  color: #60a5fa;
+  margin-bottom: 1rem;
+}
+
+.resume-block ul {
+  list-style: none;
+  padding: 0;
+}
+
+.resume-block li {
+  margin-bottom: 1.2rem;
+  line-height: 1.6;
+  color: #e2e8f0;
+}
+
+.resume-block li span {
+  font-size: 0.9rem;
+  color: #94a3b8;
+}
+
+.resume-block p {
+  color: #cbd5e1;
+  line-height: 1.6;
+}
+
+.download-area {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.resume-btn {
+  display: inline-block;
+  background-color: #3b82f6;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.resume-btn:hover {
+  background-color: #2563eb;
+}
+
+.resume-btn i {
+  margin-right: 0.5rem;
+}
+
+/* Fade in animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
